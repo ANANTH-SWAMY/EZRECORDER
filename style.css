@@ -51,7 +51,11 @@ video {
     transition: 0.5s;
 }
 
-#stop:hover {
+#stop:disabled { 
+    cursor: not-allowed;
+}
+
+#stop:hover:enabled{
     box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
     background-color: rgb(3, 7, 0);
@@ -72,7 +76,11 @@ video {
     transition: 0.5s;
 }
 
-#DOWNLOAD:hover {
+#DOWNLOAD:disabled { 
+    cursor: not-allowed;
+}
+
+#DOWNLOAD:hover:enabled {
     box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
     background-color: rgb(3, 7, 0);
