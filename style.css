@@ -10,6 +10,12 @@ video {
     outline-width: 5px;
 }
 
+.container {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
 #rec {
     background-color: rgb(123, 255, 0);
     border: none;
@@ -25,6 +31,10 @@ video {
 #rec:hover {
     box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
+    background-color: rgb(3, 7, 0);
+    color: rgb(123, 255, 0);
+    border: rgb(123, 255, 0);
+    border-style: solid;
 }
 
 #stop {
@@ -44,6 +54,10 @@ video {
 #stop:hover {
     box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
+    background-color: rgb(3, 7, 0);
+    color: rgb(123, 255, 0);
+    border: rgb(123, 255, 0);
+    border-style: solid;
 }
 
 #DOWNLOAD {
@@ -61,12 +75,10 @@ video {
 #DOWNLOAD:hover {
     box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
-}
-
-.container {
-    position: relative;
-    top: 10px;
-    text-align: center;
+    background-color: rgb(3, 7, 0);
+    color: rgb(123, 255, 0);
+    border: rgb(123, 255, 0);
+    border-style: solid;
 }
 
 #title{
