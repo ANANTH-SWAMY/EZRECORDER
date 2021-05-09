@@ -1,44 +1,5 @@
-#rec {
-    background-color: rgb(123, 255, 0);
-    border: none;
-    border-radius: 25px;
-    font-size: 30px;
-    width:200px;
-    height: 80px;
-    font-family: bahnschrift ;
-    src: url(bahnschrift.ttf);
-    
-    
-}
-
 body {
     background-color: black;
-}
-
-#stop {
-    background-color: rgb(123, 255, 0);
-    border: none;
-    border-radius: 25px;
-    font-size: 30px;
-    width:200px;
-    height: 80px;
-    font-family: bahnschrift ;
-    src: url(bahnschrift.ttf);
-}
-
-#DOWNLOAD {
-    background-color: rgb(123, 255, 0);
-    border: none;
-    border-radius: 25px;
-    font-size: 30px;
-    width:200px;
-    height: 80px;
-    font-family: bahnschrift ;
-    src: url(bahnschrift.ttf);
-}
-
-.container {
-    text-align: center;
 }
 
 video {
@@ -49,10 +10,72 @@ video {
     outline-width: 5px;
 }
 
+#rec {
+    background-color: rgb(123, 255, 0);
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    width:200px;
+    height: 80px;
+    font-family: bahnschrift ;
+    src: url(bahnschrift.ttf);        
+}
+
+#rec:hover {
+    box-shadow: 0 0 20px rgb(123, 255, 0);
+    cursor: pointer;
+}
+
+#stop {
+    background-color: rgb(123, 255, 0);
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    width:200px;
+    height: 80px;
+    font-family: bahnschrift ;
+    src: url(bahnschrift.ttf);
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+#stop:hover {
+    box-shadow: 0 0 20px rgb(123, 255, 0);
+    cursor: pointer;
+}
+
+#DOWNLOAD {
+    background-color: rgb(123, 255, 0);
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    width:200px;
+    height: 80px;
+    font-family: bahnschrift ;
+    src: url(bahnschrift.ttf);
+}
+
+#DOWNLOAD:hover {
+    box-shadow: 0 0 20px rgb(123, 255, 0);
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
 #title{
+    position: relative;
+    top: -18px;
     color: rgb(123, 255, 0);
     font-size: 45px;
     font-family: bahnschrift ;
     src: url(bahnschrift.ttf);
 }
 
+#buttons {
+    position: relative;
+    top: -11px;
+}
