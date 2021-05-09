@@ -25,7 +25,8 @@ video {
     height: 80px;
     font-family: bahnschrift ;
     src: url(bahnschrift.ttf);
-    transition: 0.5s;        
+    transition: 0.5s;
+    outline: none;
 }
 
 #rec:hover {
@@ -49,6 +50,7 @@ video {
     margin-left: 14px;
     margin-right: 14px;
     transition: 0.5s;
+    outline: none;
 }
 
 #stop:disabled { 
@@ -62,6 +64,7 @@ video {
     color: rgb(123, 255, 0);
     border: rgb(123, 255, 0);
     border-style: solid;
+    outline: none;
 }
 
 #DOWNLOAD {
@@ -74,6 +77,7 @@ video {
     font-family: bahnschrift ;
     src: url(bahnschrift.ttf);
     transition: 0.5s;
+    outline: none;
 }
 
 #DOWNLOAD:disabled { 
@@ -87,6 +91,7 @@ video {
     color: rgb(123, 255, 0);
     border: rgb(123, 255, 0);
     border-style: solid;
+    outline: none;
 }
 
 #title{
