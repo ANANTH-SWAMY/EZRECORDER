@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(3, 7, 0);
 }
 
 video {
@@ -18,11 +18,12 @@ video {
     width:200px;
     height: 80px;
     font-family: bahnschrift ;
-    src: url(bahnschrift.ttf);        
+    src: url(bahnschrift.ttf);
+    transition: 0.5s;        
 }
 
 #rec:hover {
-    box-shadow: 0 0 20px rgb(123, 255, 0);
+    box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
 }
 
@@ -37,10 +38,11 @@ video {
     src: url(bahnschrift.ttf);
     margin-left: 14px;
     margin-right: 14px;
+    transition: 0.5s;
 }
 
 #stop:hover {
-    box-shadow: 0 0 20px rgb(123, 255, 0);
+    box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
 }
 
@@ -53,10 +55,11 @@ video {
     height: 80px;
     font-family: bahnschrift ;
     src: url(bahnschrift.ttf);
+    transition: 0.5s;
 }
 
 #DOWNLOAD:hover {
-    box-shadow: 0 0 20px rgb(123, 255, 0);
+    box-shadow: 0 0 30px rgb(123, 255, 0);
     cursor: pointer;
 }
 
