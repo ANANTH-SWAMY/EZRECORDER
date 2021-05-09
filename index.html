@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            SCREEN RECORDER
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.2.1.slim.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container mt-3">
+            <div id="title">
+                ONLINE SCREEN RECORDER
+            </div>
+            <button type="button" onclick="recordScreen()" class="btn btn-info" id="rec">RECORD</button>
+            <button type="button" class="btn btn-primary mb-4" id="stop" disabled>STOP</button>
+            <span><a id='download'><button type="button" class="btn btn-primary mb-4" id="DOWNLOAD" disabled>DOWNLOAD</button></a></span>
+            <div class="p-5" id="vid">
+                <video autoplay height='360' width="640" muted></video>
+            </div>
+            
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
