@@ -1,5 +1,5 @@
 # EZRECORDER
-# Check it out here: https://ezrecorder.netlify.app/
+# Check it out here: [ezrecorder](http://ezrecorder.netlify.app)
 Simple screen recorder made with JavaScript.
 
 Records a .webm file.
