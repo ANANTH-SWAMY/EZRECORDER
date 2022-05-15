@@ -49,7 +49,7 @@ const handleRecord = function ({stream, mimeType}) {
         });
         recordedChunks = []
         downloadLink.href = URL.createObjectURL(blob);
-        downloadLink.download = `video.webm`;
+        downloadLink.download = `video.mp4`;
         stopRecord();
         videoElement.srcObject = null;
     };
@@ -58,9 +58,8 @@ const handleRecord = function ({stream, mimeType}) {
 };
 
 
-
 async function recordScreen() {
-    const mimeType = 'video/webm';
+    const mimeType = 'video/mp4';
     shouldStop = false;
     const constraints = {
         video: {

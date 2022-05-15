@@ -25,8 +25,8 @@ video {
     height: 80px;
     font-family: bahnschrift ;
     src: url(bahnschrift.ttf);
-    transition: 0.5s;
-    outline: none;
+    transition: 0.5s;  
+    outline: none;      
 }
 
 #rec:hover {
@@ -36,6 +36,7 @@ video {
     color: rgb(123, 255, 0);
     border: rgb(123, 255, 0);
     border-style: solid;
+    outline: none;
 }
 
 #stop {
