@@ -6,4 +6,6 @@
 
 #### Allows you to record the full screen, a particular windows or a particular browser tab.
 
+##### Mobile not supported
+
 ![Screenshot](recorder.png)
